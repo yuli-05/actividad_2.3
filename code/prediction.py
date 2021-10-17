@@ -5,8 +5,8 @@ from joblib import load
  
 model = load("model.joblib") 
 while True: 
-    XS = [] 
-    X = int(input("X:")) 
-    XS.append([X]) 
-    prediction = model.predict(XS) 
+    xs = [] 
+    x = int(input("x:")) 
+    xs.append([X]) 
+    prediction = model.predict(xs) 
     print(prediction)
